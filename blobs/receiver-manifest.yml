@@ -1,0 +1,9 @@
+---
+applications:
+- name: rabbit-receiver
+  host: rabbit-receiver
+  path: target/rabbit-receiver-0.0.1-SNAPSHOT.jar
+  health-check-type: none
+  services:
+    - test-rabbitmq-1
+
