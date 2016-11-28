@@ -1,0 +1,5 @@
+applications:
+- name: cf-cloud-info-solution
+  memory: 512M
+  host: cloud-info-solution
+  path: cf-cloud-info-solution-0.0.1-SNAPSHOT.war   # Maven
